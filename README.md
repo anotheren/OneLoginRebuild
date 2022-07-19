@@ -30,9 +30,9 @@ pod 'OneLoginRebuild'
 
 ## Manually Build
 
-* Download the latest `GTOneLoginSDK` from ** [geetest.com](https://docs.geetest.com/onelogin/changelog/ios) **.
-Or download Library/ from Release Page.
-* unzip and move files to `Library/`
+* Download the latest `GTOneLoginSDK` from [geetest.com](https://docs.geetest.com/onelogin/changelog/ios).
+* Or download `Library/` from [Release Page](https://github.com/anotheren/OneLoginRebuild/releases).
+* Unzip and move files to `Library/`
 * run `create-xcframework.sh`
 
 ## Reference

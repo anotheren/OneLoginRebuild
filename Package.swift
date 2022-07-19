@@ -13,7 +13,12 @@ let package = Package(
     ],
     targets: [
         .target(name: "OneLoginRebuildLink",
-                dependencies: ["OneLoginRebuild"],
+                dependencies: [
+                    "OneLoginRebuild",
+                    "CMCC",
+                    "CTCC",
+                    "CUCC",
+                ],
                 linkerSettings: [
                     .linkedLibrary("z"),
                     .linkedLibrary("c++"),
@@ -26,6 +31,15 @@ let package = Package(
                 ]),
         .binaryTarget(name: "OneLoginRebuild",
                       url: "https://github.com/anotheren/OneLoginRebuild/releases/download/1.0.0/OneLoginRebuild.xcframework.zip",
-                      checksum: "47b5b74f3ffea699e08415f4a4108ea23caae1a1b3c7eae153eaf4389ae89693"),
+                      checksum: "752fa3950238a6a8c7d361cb3e703de926c501dde241e50ff60112fa4b7d59ce"),
+        .binaryTarget(name: "CMCC",
+                      url: "https://github.com/anotheren/OneLoginRebuild/releases/download/1.0.0/CMCC.xcframework.zip",
+                      checksum: "9a49515381c6e3f24e5e75d3294205fa217cf559266d73004943ac8ab5d23696"),
+        .binaryTarget(name: "CTCC",
+                      url: "https://github.com/anotheren/OneLoginRebuild/releases/download/1.0.0/CTCC.xcframework.zip",
+                      checksum: "e0b96ca65970ef494ee49a591c377a207e4fd2bc3130a9cee7e785a0eba7f1c4"),
+        .binaryTarget(name: "CUCC",
+                      url: "https://github.com/anotheren/OneLoginRebuild/releases/download/1.0.0/CUCC.xcframework.zip",
+                      checksum: "4811fd0c5b043cafd28b2ca47fe432880a5d19b9c645d50cc3059a22950c6ded"),
     ]
 )

@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source = {
     :http => 'https://github.com/anotheren/OneLoginRebuild/releases/download/1.0.0/OneLoginRebuild.xcframework.zip',
     :type => 'zip',
-    :sha256 => '47b5b74f3ffea699e08415f4a4108ea23caae1a1b3c7eae153eaf4389ae89693'
+    :sha256 => '752fa3950238a6a8c7d361cb3e703de926c501dde241e50ff60112fa4b7d59ce'
   }
   s.ios.deployment_target = '13.0'
   s.ios.vendored_frameworks = 'Build/OneLoginRebuild.xcframework'

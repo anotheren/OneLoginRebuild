@@ -9,20 +9,6 @@
 /* Begin PBXBuildFile section */
 		A077A420288540C000235AAB /* OneLoginRebuild.h in Headers */ = {isa = PBXBuildFile; fileRef = A077A41F288540C000235AAB /* OneLoginRebuild.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A077A4722885465000235AAB /* OneLoginRebuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = A077A4712885465000235AAB /* OneLoginRebuild.swift */; };
-		A077A47428855FE100235AAB /* EAccountApiSDK in Frameworks */ = {isa = PBXBuildFile; fileRef = A077A47328855FE100235AAB /* EAccountApiSDK */; };
-		A077A47A28855FE800235AAB /* EAccountSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = A077A47628855FE800235AAB /* EAccountSDK.h */; };
-		A077A47B28855FE800235AAB /* EAccountCTEConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = A077A47728855FE800235AAB /* EAccountCTEConfig.h */; };
-		A077A47C28855FE800235AAB /* EAccountJSEventHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = A077A47828855FE800235AAB /* EAccountJSEventHandler.h */; };
-		A077A47D28855FE800235AAB /* EAccountPreLoginConfigModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A077A47928855FE800235AAB /* EAccountPreLoginConfigModel.h */; };
-		A077A48228855FFE00235AAB /* account_login_sdk_noui_core in Frameworks */ = {isa = PBXBuildFile; fileRef = A077A47E28855FFE00235AAB /* account_login_sdk_noui_core */; };
-		A077A48328855FFE00235AAB /* UniAuthHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = A077A48028855FFE00235AAB /* UniAuthHelper.h */; };
-		A077A48428855FFE00235AAB /* account_login_sdk_noui_core.h in Headers */ = {isa = PBXBuildFile; fileRef = A077A48128855FFE00235AAB /* account_login_sdk_noui_core.h */; };
-		A077A48C2885601D00235AAB /* TYRZUISDK in Frameworks */ = {isa = PBXBuildFile; fileRef = A077A4852885601D00235AAB /* TYRZUISDK */; };
-		A077A48D2885601D00235AAB /* UASDKErrorCode.h in Headers */ = {isa = PBXBuildFile; fileRef = A077A4872885601D00235AAB /* UASDKErrorCode.h */; };
-		A077A48E2885601D00235AAB /* UASDKLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = A077A4882885601D00235AAB /* UASDKLogin.h */; };
-		A077A48F2885601D00235AAB /* UAEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = A077A4892885601D00235AAB /* UAEnums.h */; };
-		A077A4902885601D00235AAB /* UACustomModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A077A48A2885601D00235AAB /* UACustomModel.h */; };
-		A077A4912885601D00235AAB /* TYRZUISDK.h in Headers */ = {isa = PBXBuildFile; fileRef = A077A48B2885601D00235AAB /* TYRZUISDK.h */; };
 		A077A4A52885602C00235AAB /* OneLoginResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A077A4922885602C00235AAB /* OneLoginResource.bundle */; };
 		A077A4A62885602C00235AAB /* OneLoginSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = A077A4942885602C00235AAB /* OneLoginSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A077A4A72885602C00235AAB /* OLSizeUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = A077A4952885602C00235AAB /* OLSizeUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -41,6 +27,20 @@
 		A077A4B42885602C00235AAB /* OLButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A077A4A22885602C00235AAB /* OLButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A077A4B52885602C00235AAB /* OLPrivacyTermItem.h in Headers */ = {isa = PBXBuildFile; fileRef = A077A4A32885602C00235AAB /* OLPrivacyTermItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A077A4B62885602C00235AAB /* OneLoginSDK in Frameworks */ = {isa = PBXBuildFile; fileRef = A077A4A42885602C00235AAB /* OneLoginSDK */; };
+		A08DCD152886809500EC9C4F /* account_login_sdk_noui_core.h in Headers */ = {isa = PBXBuildFile; fileRef = A077A48128855FFE00235AAB /* account_login_sdk_noui_core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A08DCD162886809500EC9C4F /* UniAuthHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = A077A48028855FFE00235AAB /* UniAuthHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A08DCD17288680C500EC9C4F /* account_login_sdk_noui_core in Frameworks */ = {isa = PBXBuildFile; fileRef = A077A47E28855FFE00235AAB /* account_login_sdk_noui_core */; };
+		A08DCD24288683E500EC9C4F /* EAccountApiSDK in Frameworks */ = {isa = PBXBuildFile; fileRef = A077A47328855FE100235AAB /* EAccountApiSDK */; };
+		A08DCD25288683EE00EC9C4F /* EAccountCTEConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = A077A47728855FE800235AAB /* EAccountCTEConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A08DCD26288683EE00EC9C4F /* EAccountSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = A077A47628855FE800235AAB /* EAccountSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A08DCD27288683EE00EC9C4F /* EAccountJSEventHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = A077A47828855FE800235AAB /* EAccountJSEventHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A08DCD28288683EE00EC9C4F /* EAccountPreLoginConfigModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A077A47928855FE800235AAB /* EAccountPreLoginConfigModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0A2EA3A28865E9E00A574EC /* TYRZUISDK in Frameworks */ = {isa = PBXBuildFile; fileRef = A077A4852885601D00235AAB /* TYRZUISDK */; };
+		A0A2EA3B28865EAA00A574EC /* TYRZUISDK.h in Headers */ = {isa = PBXBuildFile; fileRef = A077A48B2885601D00235AAB /* TYRZUISDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0A2EA3C28865EAA00A574EC /* UAEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = A077A4892885601D00235AAB /* UAEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0A2EA3D28865EAA00A574EC /* UACustomModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A077A48A2885601D00235AAB /* UACustomModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0A2EA3E28865EAA00A574EC /* UASDKErrorCode.h in Headers */ = {isa = PBXBuildFile; fileRef = A077A4872885601D00235AAB /* UASDKErrorCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0A2EA3F28865EAA00A574EC /* UASDKLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = A077A4882885601D00235AAB /* UASDKLogin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +79,9 @@
 		A077A4A22885602C00235AAB /* OLButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLButton.h; sourceTree = "<group>"; };
 		A077A4A32885602C00235AAB /* OLPrivacyTermItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLPrivacyTermItem.h; sourceTree = "<group>"; };
 		A077A4A42885602C00235AAB /* OneLoginSDK */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = OneLoginSDK; sourceTree = "<group>"; };
+		A08DCD0E2886807D00EC9C4F /* CUCC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CUCC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A08DCD1D288683DA00EC9C4F /* CTCC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTCC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0A2EA3328865E7300A574EC /* CMCC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CMCC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +90,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				A077A4B62885602C00235AAB /* OneLoginSDK in Frameworks */,
-				A077A47428855FE100235AAB /* EAccountApiSDK in Frameworks */,
-				A077A48C2885601D00235AAB /* TYRZUISDK in Frameworks */,
-				A077A48228855FFE00235AAB /* account_login_sdk_noui_core in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08DCD0B2886807D00EC9C4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08DCD17288680C500EC9C4F /* account_login_sdk_noui_core in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08DCD1A288683DA00EC9C4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08DCD24288683E500EC9C4F /* EAccountApiSDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0A2EA3028865E7300A574EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A2EA3A28865E9E00A574EC /* TYRZUISDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +126,7 @@
 				A077A426288540E800235AAB /* Library */,
 				A077A41E288540C000235AAB /* OneLoginRebuild */,
 				A077A41D288540C000235AAB /* Products */,
+				A08DCD29288688D400EC9C4F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +134,9 @@
 			isa = PBXGroup;
 			children = (
 				A077A41C288540C000235AAB /* OneLoginRebuild.framework */,
+				A0A2EA3328865E7300A574EC /* CMCC.framework */,
+				A08DCD0E2886807D00EC9C4F /* CUCC.framework */,
+				A08DCD1D288683DA00EC9C4F /* CTCC.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,9 +153,9 @@
 		A077A426288540E800235AAB /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				A077A44D288541E200235AAB /* CMCC */,
 				A077A44F288541ED00235AAB /* CTCC */,
 				A077A44E288541E900235AAB /* CUCC */,
-				A077A44D288541E200235AAB /* CMCC */,
 				A077A427288540F200235AAB /* OneLogin */,
 			);
 			path = Library;
@@ -225,6 +253,13 @@
 			path = Headers;
 			sourceTree = "<group>";
 		};
+		A08DCD29288688D400EC9C4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -235,31 +270,52 @@
 				A077A4A62885602C00235AAB /* OneLoginSDK.h in Headers */,
 				A077A4AC2885602C00235AAB /* OLErrorInfo.h in Headers */,
 				A077A4B02885602C00235AAB /* OLAgreementView.h in Headers */,
-				A077A48428855FFE00235AAB /* account_login_sdk_noui_core.h in Headers */,
 				A077A4AD2885602C00235AAB /* OLConstants.h in Headers */,
 				A077A4AF2885602C00235AAB /* OLAuthViewModel.h in Headers */,
-				A077A47B28855FE800235AAB /* EAccountCTEConfig.h in Headers */,
 				A077A4AE2885602C00235AAB /* GTOnePass.h in Headers */,
-				A077A48328855FFE00235AAB /* UniAuthHelper.h in Headers */,
 				A077A4B52885602C00235AAB /* OLPrivacyTermItem.h in Headers */,
 				A077A4B12885602C00235AAB /* OLKeyWindowUtil.h in Headers */,
-				A077A48D2885601D00235AAB /* UASDKErrorCode.h in Headers */,
 				A077A4AB2885602C00235AAB /* OneLoginPro.h in Headers */,
-				A077A47C28855FE800235AAB /* EAccountJSEventHandler.h in Headers */,
 				A077A4A92885602C00235AAB /* OLNetworkInfo.h in Headers */,
-				A077A4902885601D00235AAB /* UACustomModel.h in Headers */,
-				A077A48E2885601D00235AAB /* UASDKLogin.h in Headers */,
-				A077A47A28855FE800235AAB /* EAccountSDK.h in Headers */,
 				A077A4B42885602C00235AAB /* OLButton.h in Headers */,
 				A077A420288540C000235AAB /* OneLoginRebuild.h in Headers */,
 				A077A4B22885602C00235AAB /* GOPManager.h in Headers */,
 				A077A4AA2885602C00235AAB /* OneLogin.h in Headers */,
 				A077A4B32885602C00235AAB /* GOPError.h in Headers */,
-				A077A47D28855FE800235AAB /* EAccountPreLoginConfigModel.h in Headers */,
-				A077A4912885601D00235AAB /* TYRZUISDK.h in Headers */,
 				A077A4A72885602C00235AAB /* OLSizeUtil.h in Headers */,
-				A077A48F2885601D00235AAB /* UAEnums.h in Headers */,
 				A077A4A82885602C00235AAB /* OLNavigationView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08DCD092886807D00EC9C4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08DCD152886809500EC9C4F /* account_login_sdk_noui_core.h in Headers */,
+				A08DCD162886809500EC9C4F /* UniAuthHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08DCD18288683DA00EC9C4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08DCD28288683EE00EC9C4F /* EAccountPreLoginConfigModel.h in Headers */,
+				A08DCD25288683EE00EC9C4F /* EAccountCTEConfig.h in Headers */,
+				A08DCD27288683EE00EC9C4F /* EAccountJSEventHandler.h in Headers */,
+				A08DCD26288683EE00EC9C4F /* EAccountSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0A2EA2E28865E7300A574EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A2EA3B28865EAA00A574EC /* TYRZUISDK.h in Headers */,
+				A0A2EA3E28865EAA00A574EC /* UASDKErrorCode.h in Headers */,
+				A0A2EA3C28865EAA00A574EC /* UAEnums.h in Headers */,
+				A0A2EA3D28865EAA00A574EC /* UACustomModel.h in Headers */,
+				A0A2EA3F28865EAA00A574EC /* UASDKLogin.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +340,60 @@
 			productReference = A077A41C288540C000235AAB /* OneLoginRebuild.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		A08DCD0D2886807D00EC9C4F /* CUCC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A08DCD122886807D00EC9C4F /* Build configuration list for PBXNativeTarget "CUCC" */;
+			buildPhases = (
+				A08DCD092886807D00EC9C4F /* Headers */,
+				A08DCD0A2886807D00EC9C4F /* Sources */,
+				A08DCD0B2886807D00EC9C4F /* Frameworks */,
+				A08DCD0C2886807D00EC9C4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CUCC;
+			productName = account_login_sdk_noui_core;
+			productReference = A08DCD0E2886807D00EC9C4F /* CUCC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A08DCD1C288683DA00EC9C4F /* CTCC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A08DCD21288683DA00EC9C4F /* Build configuration list for PBXNativeTarget "CTCC" */;
+			buildPhases = (
+				A08DCD18288683DA00EC9C4F /* Headers */,
+				A08DCD19288683DA00EC9C4F /* Sources */,
+				A08DCD1A288683DA00EC9C4F /* Frameworks */,
+				A08DCD1B288683DA00EC9C4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTCC;
+			productName = CTCC;
+			productReference = A08DCD1D288683DA00EC9C4F /* CTCC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0A2EA3228865E7300A574EC /* CMCC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0A2EA3928865E7300A574EC /* Build configuration list for PBXNativeTarget "CMCC" */;
+			buildPhases = (
+				A0A2EA2E28865E7300A574EC /* Headers */,
+				A0A2EA2F28865E7300A574EC /* Sources */,
+				A0A2EA3028865E7300A574EC /* Frameworks */,
+				A0A2EA3128865E7300A574EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CMCC;
+			productName = TYRZUISDK;
+			productReference = A0A2EA3328865E7300A574EC /* CMCC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -297,6 +407,15 @@
 					A077A41B288540C000235AAB = {
 						CreatedOnToolsVersion = 13.4.1;
 						LastSwiftMigration = 1340;
+					};
+					A08DCD0D2886807D00EC9C4F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					A08DCD1C288683DA00EC9C4F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					A0A2EA3228865E7300A574EC = {
+						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
@@ -314,6 +433,9 @@
 			projectRoot = "";
 			targets = (
 				A077A41B288540C000235AAB /* OneLoginRebuild */,
+				A0A2EA3228865E7300A574EC /* CMCC */,
+				A08DCD0D2886807D00EC9C4F /* CUCC */,
+				A08DCD1C288683DA00EC9C4F /* CTCC */,
 			);
 		};
 /* End PBXProject section */
@@ -327,6 +449,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A08DCD0C2886807D00EC9C4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08DCD1B288683DA00EC9C4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0A2EA3128865E7300A574EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -335,6 +478,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				A077A4722885465000235AAB /* OneLoginRebuild.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08DCD0A2886807D00EC9C4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08DCD19288683DA00EC9C4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0A2EA2F28865E7300A574EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,6 +706,210 @@
 			};
 			name = Release;
 		};
+		A08DCD132886807D00EC9C4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 anotheren.com. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/CUCC",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anotheren.CUCC;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A08DCD142886807D00EC9C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 anotheren.com. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/CUCC",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anotheren.CUCC;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A08DCD22288683DA00EC9C4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 anotheren.com. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/CTCC",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anotheren.CTCC;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A08DCD23288683DA00EC9C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 anotheren.com. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/CTCC",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anotheren.CTCC;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0A2EA3728865E7300A574EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 anotheren.com. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/CMCC",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anotheren.CMCC;
+				PRODUCT_NAME = CMCC;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0A2EA3828865E7300A574EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 anotheren.com. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/CMCC",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anotheren.CMCC;
+				PRODUCT_NAME = CMCC;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -559,6 +927,33 @@
 			buildConfigurations = (
 				A077A424288540C000235AAB /* Debug */,
 				A077A425288540C000235AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A08DCD122886807D00EC9C4F /* Build configuration list for PBXNativeTarget "CUCC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A08DCD132886807D00EC9C4F /* Debug */,
+				A08DCD142886807D00EC9C4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A08DCD21288683DA00EC9C4F /* Build configuration list for PBXNativeTarget "CTCC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A08DCD22288683DA00EC9C4F /* Debug */,
+				A08DCD23288683DA00EC9C4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0A2EA3928865E7300A574EC /* Build configuration list for PBXNativeTarget "CMCC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0A2EA3728865E7300A574EC /* Debug */,
+				A0A2EA3828865E7300A574EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

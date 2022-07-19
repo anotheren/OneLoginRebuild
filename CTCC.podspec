@@ -13,4 +13,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
   s.ios.vendored_frameworks = 'Build/CTCC.xcframework'
   s.swift_versions = ['5.6']
+  s.libraries = ['c++']
 end

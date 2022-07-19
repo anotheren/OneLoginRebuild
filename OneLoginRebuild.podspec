@@ -15,4 +15,7 @@ Pod::Spec.new do |s|
   s.swift_versions = ['5.6']
   s.frameworks = ['UIKit', 'Network', 'CFNetwork', 'Foundation', 'CoreTelephony', 'SystemConfiguration']
   s.libraries = ['z', 'c++']
+  s.dependency 'CMCC'
+  s.dependency 'CTCC'
+  s.dependency 'CUCC'
 end

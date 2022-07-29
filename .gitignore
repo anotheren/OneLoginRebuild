@@ -8,10 +8,10 @@ Library/
 Build/
 .swiftpm
 .DS_Store
-OneLoginRebuild.xcframework.zip
-CMCC.xcframework.zip
-CUCC.xcframework.zip
-CTCC.xcframework.zip
+OneLoginSDK.xcframework.zip
+TYRZUISDK.xcframework.zip
+EAccountApiSDK.xcframework.zip
+account_login_sdk_noui_core.xcframework.zip
 
 ## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
 *.xcscmblueprint

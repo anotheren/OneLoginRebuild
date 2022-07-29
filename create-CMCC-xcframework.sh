@@ -13,27 +13,23 @@ if [ -f "${FRAMEWORK_NAME}.xcframework.zip" ]; then
     rm -rf "${FRAMEWORK_NAME}.xcframework.zip"
 fi
 
-echo "[2/6] Xcode Build Archive for generic/platform=iOS"
-xcodebuild archive \
--project ${PROJECT_NAME}.xcodeproj \
--scheme ${FRAMEWORK_NAME} \
--destination "generic/platform=iOS" \
--archivePath "Build/${PATH_PREFIX}/iphoneos" \
-SKIP_INSTALL=NO \
-BUILD_LIBRARY_FOR_DISTRIBUTION=YES \
--quiet
+echo "[2/6] Prepare ios_arm64"
+mkdir -p TMP/ios_arm64/TYRZUISDK.framework/
+cp -R Library/TYRZUISDK.framework/ TMP/ios_arm64/TYRZUISDK.framework/
+lipo -thin arm64 TMP/ios_arm64/TYRZUISDK.framework/TYRZUISDK -output TMP/ios_arm64/TYRZUISDK.framework/TYRZUISDK
+
+echo "[3/6] Prepare ios_arm64_x86_64_simulator"
+mkdir -p TMP/ios_arm64_x86_64_simulator/TYRZUISDK.framework/
+cp -R Library/TYRZUISDK.framework/ TMP/ios_arm64_x86_64_simulator/TYRZUISDK.framework/
+# lipo -thin arm64 TMP/ios_arm64_x86_64_simulator/TYRZUISDK.framework/TYRZUISDK -output TMP/ios_arm64_x86_64_simulator/TYRZUISDK.framework/TYRZUISDK.arm64
+# lipo -thin x86_64 TMP/ios_arm64_x86_64_simulator/TYRZUISDK.framework/TYRZUISDK -output TMP/ios_arm64_x86_64_simulator/TYRZUISDK.framework/TYRZUISDK.x86_64
+./Library/arm64-to-sim2 patch TMP/ios_arm64_x86_64_simulator/TYRZUISDK.framework/TYRZUISDK.arm64
+
 
 echo "[3/6] Xcode Build Archive for generic/platform=iOS Simulator"
 ./arm64-to-sim2 patch Library/${PATH_PREFIX}/${LIBRARY_NAME}
 
-xcodebuild archive \
--project ${PROJECT_NAME}.xcodeproj \
--scheme ${FRAMEWORK_NAME} \
--destination "generic/platform=iOS Simulator" \
--archivePath "Build/${PATH_PREFIX}/iphonesimulator" \
-SKIP_INSTALL=NO \
-BUILD_LIBRARY_FOR_DISTRIBUTION=YES \
--quiet
+
 
 echo "[4/6] Create xcframework"
 xcodebuild -create-xcframework \

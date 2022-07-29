@@ -13,8 +13,11 @@ if [ -f "${FRAMEWORK_NAME}.xcframework.zip" ]; then
     rm -rf "${FRAMEWORK_NAME}.xcframework.zip"
 fi
 
-echo "[2/7] Prepare Patch"
+cp -r Library/${OneLoginSDK}
 
+
+
+echo "[2/7] Prepare Patch"
 lipo -thin arm64 Library/${PATH_PREFIX}/${LIBRARY_NAME} -output Library/${PATH_PREFIX}/${LIBRARY_NAME}.ios-arm64
 lipo -thin arm64 Library/${PATH_PREFIX}/${LIBRARY_NAME} -output Library/${PATH_PREFIX}/${LIBRARY_NAME}.ios-arm64-simulator
 ./arm64-to-sim Library/${PATH_PREFIX}/${LIBRARY_NAME}.ios-arm64-simulator 13

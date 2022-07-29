@@ -8,9 +8,9 @@
 * Require iOS 13+
 
 ## Change Log
-| OneLoginRebuild | GTOneLoginSDK | Xcode |
-| ----- | ----- | ----- |
-| 1.0.0 | 2.7.5 | 13.4.1 (13F100) |
+| OneLoginRebuild | GTOneLoginSDK |
+| ----- | ----- |
+| 1.1.0 | 2.7.5 |
 
 ## Installation
 
@@ -18,7 +18,7 @@
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/anotheren/OneLoginRebuild.git", from: "1.0.0")
+    .package(url: "https://github.com/anotheren/OneLoginRebuild.git", from: "1.1.0")
 ]
 ```
 

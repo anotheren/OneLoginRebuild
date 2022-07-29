@@ -22,7 +22,7 @@ let package = Package(
                 linkerSettings: [
                     .linkedLibrary("z"),
                     .linkedLibrary("c++"),
-                    .linkedLibrary("sqlite"),
+                    .linkedLibrary("sqlite3"),
                     .linkedFramework("UIKit"),
                     .linkedFramework("Network"),
                     .linkedFramework("CFNetwork"),

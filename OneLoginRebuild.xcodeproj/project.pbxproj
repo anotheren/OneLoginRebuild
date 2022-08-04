@@ -1,0 +1,1495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0798CEC289A87A600AB11EA /* EAccountCTEConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = A0798CE3289A879300AB11EA /* EAccountCTEConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0798CED289A87A600AB11EA /* EAccountPreLoginConfigModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A0798CE5289A879300AB11EA /* EAccountPreLoginConfigModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0798CEE289A87A600AB11EA /* EAccountJSEventHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = A0798CE4289A879300AB11EA /* EAccountJSEventHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0798CEF289A87A600AB11EA /* EAccountSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = A0798CE2289A879300AB11EA /* EAccountSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0798CF0289A87AE00AB11EA /* EAccountApiSDK.arm64 in Frameworks */ = {isa = PBXBuildFile; fileRef = A0798CE0289A879300AB11EA /* EAccountApiSDK.arm64 */; };
+		A0798CF3289A87B500AB11EA /* EAccountPreLoginConfigModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A0798CE5289A879300AB11EA /* EAccountPreLoginConfigModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0798CF4289A87B500AB11EA /* EAccountJSEventHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = A0798CE4289A879300AB11EA /* EAccountJSEventHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0798CF5289A87B500AB11EA /* EAccountCTEConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = A0798CE3289A879300AB11EA /* EAccountCTEConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0798CF6289A87B500AB11EA /* EAccountSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = A0798CE2289A879300AB11EA /* EAccountSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0798CFF289A88EE00AB11EA /* EAccountApiSDK.arm64-x86_64.sim in Frameworks */ = {isa = PBXBuildFile; fileRef = A0798CDF289A879300AB11EA /* EAccountApiSDK.arm64-x86_64.sim */; };
+		A0798D13289A894000AB11EA /* UniAuthHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = A0798D0F289A894000AB11EA /* UniAuthHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0798D14289A894000AB11EA /* account_login_sdk_noui_core.h in Headers */ = {isa = PBXBuildFile; fileRef = A0798D10289A894000AB11EA /* account_login_sdk_noui_core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0798D15289A894000AB11EA /* account_login_sdk_noui_core.arm64 in Frameworks */ = {isa = PBXBuildFile; fileRef = A0798D11289A894000AB11EA /* account_login_sdk_noui_core.arm64 */; };
+		A0798D18289A8A9C00AB11EA /* account_login_sdk_noui_core.h in Headers */ = {isa = PBXBuildFile; fileRef = A0798D10289A894000AB11EA /* account_login_sdk_noui_core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0798D19289A8A9C00AB11EA /* UniAuthHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = A0798D0F289A894000AB11EA /* UniAuthHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0798D22289A8AAF00AB11EA /* account_login_sdk_noui_core.arm64-x86_64.sim in Frameworks */ = {isa = PBXBuildFile; fileRef = A0798D0D289A894000AB11EA /* account_login_sdk_noui_core.arm64-x86_64.sim */; };
+		A0FFBAB9289A23F8001B368E /* OneLoginResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A0FFBAB8289A23F8001B368E /* OneLoginResource.bundle */; };
+		A0FFBAFE289A4FE6001B368E /* OneLoginSDK.arm64-x86_64.sim in Frameworks */ = {isa = PBXBuildFile; fileRef = A0FFBAFA289A4FD6001B368E /* OneLoginSDK.arm64-x86_64.sim */; };
+		A0FFBB10289A504F001B368E /* OneLoginSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB00289A504F001B368E /* OneLoginSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB11289A504F001B368E /* OneLoginSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB00289A504F001B368E /* OneLoginSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB12289A504F001B368E /* OLSizeUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB01289A504F001B368E /* OLSizeUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB13289A504F001B368E /* OLSizeUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB01289A504F001B368E /* OLSizeUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB14289A504F001B368E /* OLNavigationView.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB02289A504F001B368E /* OLNavigationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB15289A504F001B368E /* OLNavigationView.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB02289A504F001B368E /* OLNavigationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB16289A504F001B368E /* OLNetworkInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB03289A504F001B368E /* OLNetworkInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB17289A504F001B368E /* OLNetworkInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB03289A504F001B368E /* OLNetworkInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB18289A504F001B368E /* OneLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB04289A504F001B368E /* OneLogin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB19289A504F001B368E /* OneLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB04289A504F001B368E /* OneLogin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB1A289A504F001B368E /* OneLoginPro.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB05289A504F001B368E /* OneLoginPro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB1B289A504F001B368E /* OneLoginPro.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB05289A504F001B368E /* OneLoginPro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB1C289A504F001B368E /* OLErrorInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB06289A504F001B368E /* OLErrorInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB1D289A504F001B368E /* OLErrorInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB06289A504F001B368E /* OLErrorInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB1E289A504F001B368E /* OLConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB07289A504F001B368E /* OLConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB1F289A504F001B368E /* OLConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB07289A504F001B368E /* OLConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB20289A504F001B368E /* GTOnePass.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB08289A504F001B368E /* GTOnePass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB21289A504F001B368E /* GTOnePass.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB08289A504F001B368E /* GTOnePass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB22289A504F001B368E /* OLAuthViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB09289A504F001B368E /* OLAuthViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB23289A504F001B368E /* OLAuthViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB09289A504F001B368E /* OLAuthViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB24289A504F001B368E /* OLAgreementView.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB0A289A504F001B368E /* OLAgreementView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB25289A504F001B368E /* OLAgreementView.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB0A289A504F001B368E /* OLAgreementView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB26289A504F001B368E /* OLKeyWindowUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB0B289A504F001B368E /* OLKeyWindowUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB27289A504F001B368E /* OLKeyWindowUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB0B289A504F001B368E /* OLKeyWindowUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB28289A504F001B368E /* GOPManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB0C289A504F001B368E /* GOPManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB29289A504F001B368E /* GOPManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB0C289A504F001B368E /* GOPManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB2A289A504F001B368E /* GOPError.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB0D289A504F001B368E /* GOPError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB2B289A504F001B368E /* GOPError.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB0D289A504F001B368E /* GOPError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB2C289A504F001B368E /* OLButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB0E289A504F001B368E /* OLButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB2D289A504F001B368E /* OLButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB0E289A504F001B368E /* OLButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB2E289A504F001B368E /* OLPrivacyTermItem.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB0F289A504F001B368E /* OLPrivacyTermItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB2F289A504F001B368E /* OLPrivacyTermItem.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB0F289A504F001B368E /* OLPrivacyTermItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB39289A800D001B368E /* TYRZUISDK.arm64 in Frameworks */ = {isa = PBXBuildFile; fileRef = A0FFBB31289A800D001B368E /* TYRZUISDK.arm64 */; };
+		A0FFBB3A289A800D001B368E /* UASDKErrorCode.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB33289A800D001B368E /* UASDKErrorCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB3B289A800D001B368E /* UASDKLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB34289A800D001B368E /* UASDKLogin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB3C289A800D001B368E /* UAEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB35289A800D001B368E /* UAEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB3D289A800D001B368E /* UACustomModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB36289A800D001B368E /* UACustomModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB3E289A800D001B368E /* TYRZUISDK.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB37289A800D001B368E /* TYRZUISDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB40289A801D001B368E /* OneLoginSDK.arm64 in Frameworks */ = {isa = PBXBuildFile; fileRef = A0FFBAFB289A4FD6001B368E /* OneLoginSDK.arm64 */; };
+		A0FFBB43289A8046001B368E /* UASDKErrorCode.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB33289A800D001B368E /* UASDKErrorCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB44289A8046001B368E /* UASDKLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB34289A800D001B368E /* UASDKLogin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB45289A8046001B368E /* TYRZUISDK.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB37289A800D001B368E /* TYRZUISDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB46289A8046001B368E /* UAEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB35289A800D001B368E /* UAEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB47289A8046001B368E /* UACustomModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FFBB36289A800D001B368E /* UACustomModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FFBB50289A805F001B368E /* TYRZUISDK.arm64-x86_64.sim in Frameworks */ = {isa = PBXBuildFile; fileRef = A0FFBB38289A800D001B368E /* TYRZUISDK.arm64-x86_64.sim */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A0798CDF289A879300AB11EA /* EAccountApiSDK.arm64-x86_64.sim */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "EAccountApiSDK.arm64-x86_64.sim"; sourceTree = "<group>"; };
+		A0798CE0289A879300AB11EA /* EAccountApiSDK.arm64 */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = EAccountApiSDK.arm64; sourceTree = "<group>"; };
+		A0798CE2289A879300AB11EA /* EAccountSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAccountSDK.h; sourceTree = "<group>"; };
+		A0798CE3289A879300AB11EA /* EAccountCTEConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAccountCTEConfig.h; sourceTree = "<group>"; };
+		A0798CE4289A879300AB11EA /* EAccountJSEventHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAccountJSEventHandler.h; sourceTree = "<group>"; };
+		A0798CE5289A879300AB11EA /* EAccountPreLoginConfigModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAccountPreLoginConfigModel.h; sourceTree = "<group>"; };
+		A0798CFE289A87B500AB11EA /* CTCC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTCC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0798D05289A892F00AB11EA /* CUCC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CUCC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0798D0D289A894000AB11EA /* account_login_sdk_noui_core.arm64-x86_64.sim */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "account_login_sdk_noui_core.arm64-x86_64.sim"; sourceTree = "<group>"; };
+		A0798D0F289A894000AB11EA /* UniAuthHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniAuthHelper.h; sourceTree = "<group>"; };
+		A0798D10289A894000AB11EA /* account_login_sdk_noui_core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = account_login_sdk_noui_core.h; sourceTree = "<group>"; };
+		A0798D11289A894000AB11EA /* account_login_sdk_noui_core.arm64 */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = account_login_sdk_noui_core.arm64; sourceTree = "<group>"; };
+		A0798D21289A8A9C00AB11EA /* CUCC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CUCC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0FFBA3A289A1416001B368E /* OneLoginRebuild.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OneLoginRebuild.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0FFBAA8289A2135001B368E /* OneLoginRebuild.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OneLoginRebuild.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0FFBAAE289A2379001B368E /* CMCC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CMCC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0FFBAB8289A23F8001B368E /* OneLoginResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = OneLoginResource.bundle; sourceTree = "<group>"; };
+		A0FFBAFA289A4FD6001B368E /* OneLoginSDK.arm64-x86_64.sim */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "OneLoginSDK.arm64-x86_64.sim"; sourceTree = "<group>"; };
+		A0FFBAFB289A4FD6001B368E /* OneLoginSDK.arm64 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = OneLoginSDK.arm64; sourceTree = "<group>"; };
+		A0FFBB00289A504F001B368E /* OneLoginSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneLoginSDK.h; sourceTree = "<group>"; };
+		A0FFBB01289A504F001B368E /* OLSizeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLSizeUtil.h; sourceTree = "<group>"; };
+		A0FFBB02289A504F001B368E /* OLNavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLNavigationView.h; sourceTree = "<group>"; };
+		A0FFBB03289A504F001B368E /* OLNetworkInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLNetworkInfo.h; sourceTree = "<group>"; };
+		A0FFBB04289A504F001B368E /* OneLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneLogin.h; sourceTree = "<group>"; };
+		A0FFBB05289A504F001B368E /* OneLoginPro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneLoginPro.h; sourceTree = "<group>"; };
+		A0FFBB06289A504F001B368E /* OLErrorInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLErrorInfo.h; sourceTree = "<group>"; };
+		A0FFBB07289A504F001B368E /* OLConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLConstants.h; sourceTree = "<group>"; };
+		A0FFBB08289A504F001B368E /* GTOnePass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTOnePass.h; sourceTree = "<group>"; };
+		A0FFBB09289A504F001B368E /* OLAuthViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLAuthViewModel.h; sourceTree = "<group>"; };
+		A0FFBB0A289A504F001B368E /* OLAgreementView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLAgreementView.h; sourceTree = "<group>"; };
+		A0FFBB0B289A504F001B368E /* OLKeyWindowUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLKeyWindowUtil.h; sourceTree = "<group>"; };
+		A0FFBB0C289A504F001B368E /* GOPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOPManager.h; sourceTree = "<group>"; };
+		A0FFBB0D289A504F001B368E /* GOPError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOPError.h; sourceTree = "<group>"; };
+		A0FFBB0E289A504F001B368E /* OLButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLButton.h; sourceTree = "<group>"; };
+		A0FFBB0F289A504F001B368E /* OLPrivacyTermItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLPrivacyTermItem.h; sourceTree = "<group>"; };
+		A0FFBB31289A800D001B368E /* TYRZUISDK.arm64 */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = TYRZUISDK.arm64; sourceTree = "<group>"; };
+		A0FFBB33289A800D001B368E /* UASDKErrorCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UASDKErrorCode.h; sourceTree = "<group>"; };
+		A0FFBB34289A800D001B368E /* UASDKLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UASDKLogin.h; sourceTree = "<group>"; };
+		A0FFBB35289A800D001B368E /* UAEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAEnums.h; sourceTree = "<group>"; };
+		A0FFBB36289A800D001B368E /* UACustomModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UACustomModel.h; sourceTree = "<group>"; };
+		A0FFBB37289A800D001B368E /* TYRZUISDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYRZUISDK.h; sourceTree = "<group>"; };
+		A0FFBB38289A800D001B368E /* TYRZUISDK.arm64-x86_64.sim */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "TYRZUISDK.arm64-x86_64.sim"; sourceTree = "<group>"; };
+		A0FFBB4F289A8046001B368E /* CMCC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CMCC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0FFBB56289A86FE001B368E /* CTCC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTCC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0798CF8289A87B500AB11EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0798CFF289A88EE00AB11EA /* EAccountApiSDK.arm64-x86_64.sim in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0798D02289A892F00AB11EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0798D15289A894000AB11EA /* account_login_sdk_noui_core.arm64 in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0798D1B289A8A9C00AB11EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0798D22289A8AAF00AB11EA /* account_login_sdk_noui_core.arm64-x86_64.sim in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FFBA37289A1416001B368E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0FFBB40289A801D001B368E /* OneLoginSDK.arm64 in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FFBAA2289A2135001B368E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0FFBAFE289A4FE6001B368E /* OneLoginSDK.arm64-x86_64.sim in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FFBAAB289A2379001B368E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0FFBB39289A800D001B368E /* TYRZUISDK.arm64 in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FFBB49289A8046001B368E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0FFBB50289A805F001B368E /* TYRZUISDK.arm64-x86_64.sim in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FFBB53289A86FE001B368E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0798CF0289A87AE00AB11EA /* EAccountApiSDK.arm64 in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0798CDE289A879300AB11EA /* CTCC */ = {
+			isa = PBXGroup;
+			children = (
+				A0798CE1289A879300AB11EA /* Headers */,
+				A0798CE0289A879300AB11EA /* EAccountApiSDK.arm64 */,
+				A0798CDF289A879300AB11EA /* EAccountApiSDK.arm64-x86_64.sim */,
+			);
+			path = CTCC;
+			sourceTree = "<group>";
+		};
+		A0798CE1289A879300AB11EA /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				A0798CE2289A879300AB11EA /* EAccountSDK.h */,
+				A0798CE3289A879300AB11EA /* EAccountCTEConfig.h */,
+				A0798CE4289A879300AB11EA /* EAccountJSEventHandler.h */,
+				A0798CE5289A879300AB11EA /* EAccountPreLoginConfigModel.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		A0798D0C289A894000AB11EA /* CUCC */ = {
+			isa = PBXGroup;
+			children = (
+				A0798D0E289A894000AB11EA /* Headers */,
+				A0798D11289A894000AB11EA /* account_login_sdk_noui_core.arm64 */,
+				A0798D0D289A894000AB11EA /* account_login_sdk_noui_core.arm64-x86_64.sim */,
+			);
+			path = CUCC;
+			sourceTree = "<group>";
+		};
+		A0798D0E289A894000AB11EA /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				A0798D0F289A894000AB11EA /* UniAuthHelper.h */,
+				A0798D10289A894000AB11EA /* account_login_sdk_noui_core.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		A0FFBA21289A13D7001B368E = {
+			isa = PBXGroup;
+			children = (
+				A0FFBA41289A1431001B368E /* Library */,
+				A0FFBA2C289A13D7001B368E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0FFBA2C289A13D7001B368E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0FFBA3A289A1416001B368E /* OneLoginRebuild.framework */,
+				A0FFBAA8289A2135001B368E /* OneLoginRebuild.framework */,
+				A0FFBAAE289A2379001B368E /* CMCC.framework */,
+				A0FFBB4F289A8046001B368E /* CMCC.framework */,
+				A0FFBB56289A86FE001B368E /* CTCC.framework */,
+				A0798CFE289A87B500AB11EA /* CTCC.framework */,
+				A0798D05289A892F00AB11EA /* CUCC.framework */,
+				A0798D21289A8A9C00AB11EA /* CUCC.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0FFBA41289A1431001B368E /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				A0FFBA42289A145E001B368E /* OneLoginRebuild */,
+				A0FFBB30289A800D001B368E /* CMCC */,
+				A0798CDE289A879300AB11EA /* CTCC */,
+				A0798D0C289A894000AB11EA /* CUCC */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		A0FFBA42289A145E001B368E /* OneLoginRebuild */ = {
+			isa = PBXGroup;
+			children = (
+				A0FFBAFF289A504F001B368E /* Headers */,
+				A0FFBAFB289A4FD6001B368E /* OneLoginSDK.arm64 */,
+				A0FFBAFA289A4FD6001B368E /* OneLoginSDK.arm64-x86_64.sim */,
+				A0FFBAB8289A23F8001B368E /* OneLoginResource.bundle */,
+			);
+			path = OneLoginRebuild;
+			sourceTree = "<group>";
+		};
+		A0FFBAFF289A504F001B368E /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				A0FFBB00289A504F001B368E /* OneLoginSDK.h */,
+				A0FFBB01289A504F001B368E /* OLSizeUtil.h */,
+				A0FFBB02289A504F001B368E /* OLNavigationView.h */,
+				A0FFBB03289A504F001B368E /* OLNetworkInfo.h */,
+				A0FFBB04289A504F001B368E /* OneLogin.h */,
+				A0FFBB05289A504F001B368E /* OneLoginPro.h */,
+				A0FFBB06289A504F001B368E /* OLErrorInfo.h */,
+				A0FFBB07289A504F001B368E /* OLConstants.h */,
+				A0FFBB08289A504F001B368E /* GTOnePass.h */,
+				A0FFBB09289A504F001B368E /* OLAuthViewModel.h */,
+				A0FFBB0A289A504F001B368E /* OLAgreementView.h */,
+				A0FFBB0B289A504F001B368E /* OLKeyWindowUtil.h */,
+				A0FFBB0C289A504F001B368E /* GOPManager.h */,
+				A0FFBB0D289A504F001B368E /* GOPError.h */,
+				A0FFBB0E289A504F001B368E /* OLButton.h */,
+				A0FFBB0F289A504F001B368E /* OLPrivacyTermItem.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		A0FFBB30289A800D001B368E /* CMCC */ = {
+			isa = PBXGroup;
+			children = (
+				A0FFBB32289A800D001B368E /* Headers */,
+				A0FFBB31289A800D001B368E /* TYRZUISDK.arm64 */,
+				A0FFBB38289A800D001B368E /* TYRZUISDK.arm64-x86_64.sim */,
+			);
+			path = CMCC;
+			sourceTree = "<group>";
+		};
+		A0FFBB32289A800D001B368E /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				A0FFBB33289A800D001B368E /* UASDKErrorCode.h */,
+				A0FFBB34289A800D001B368E /* UASDKLogin.h */,
+				A0FFBB35289A800D001B368E /* UAEnums.h */,
+				A0FFBB36289A800D001B368E /* UACustomModel.h */,
+				A0FFBB37289A800D001B368E /* TYRZUISDK.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A0798CF2289A87B500AB11EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0798CF3289A87B500AB11EA /* EAccountPreLoginConfigModel.h in Headers */,
+				A0798CF4289A87B500AB11EA /* EAccountJSEventHandler.h in Headers */,
+				A0798CF5289A87B500AB11EA /* EAccountCTEConfig.h in Headers */,
+				A0798CF6289A87B500AB11EA /* EAccountSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0798D00289A892F00AB11EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0798D14289A894000AB11EA /* account_login_sdk_noui_core.h in Headers */,
+				A0798D13289A894000AB11EA /* UniAuthHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0798D17289A8A9C00AB11EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0798D18289A8A9C00AB11EA /* account_login_sdk_noui_core.h in Headers */,
+				A0798D19289A8A9C00AB11EA /* UniAuthHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FFBA35289A1416001B368E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0FFBB22289A504F001B368E /* OLAuthViewModel.h in Headers */,
+				A0FFBB12289A504F001B368E /* OLSizeUtil.h in Headers */,
+				A0FFBB28289A504F001B368E /* GOPManager.h in Headers */,
+				A0FFBB1C289A504F001B368E /* OLErrorInfo.h in Headers */,
+				A0FFBB10289A504F001B368E /* OneLoginSDK.h in Headers */,
+				A0FFBB2C289A504F001B368E /* OLButton.h in Headers */,
+				A0FFBB1E289A504F001B368E /* OLConstants.h in Headers */,
+				A0FFBB2A289A504F001B368E /* GOPError.h in Headers */,
+				A0FFBB18289A504F001B368E /* OneLogin.h in Headers */,
+				A0FFBB2E289A504F001B368E /* OLPrivacyTermItem.h in Headers */,
+				A0FFBB24289A504F001B368E /* OLAgreementView.h in Headers */,
+				A0FFBB16289A504F001B368E /* OLNetworkInfo.h in Headers */,
+				A0FFBB14289A504F001B368E /* OLNavigationView.h in Headers */,
+				A0FFBB26289A504F001B368E /* OLKeyWindowUtil.h in Headers */,
+				A0FFBB1A289A504F001B368E /* OneLoginPro.h in Headers */,
+				A0FFBB20289A504F001B368E /* GTOnePass.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FFBA90289A2135001B368E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0FFBB23289A504F001B368E /* OLAuthViewModel.h in Headers */,
+				A0FFBB13289A504F001B368E /* OLSizeUtil.h in Headers */,
+				A0FFBB29289A504F001B368E /* GOPManager.h in Headers */,
+				A0FFBB1D289A504F001B368E /* OLErrorInfo.h in Headers */,
+				A0FFBB11289A504F001B368E /* OneLoginSDK.h in Headers */,
+				A0FFBB2D289A504F001B368E /* OLButton.h in Headers */,
+				A0FFBB1F289A504F001B368E /* OLConstants.h in Headers */,
+				A0FFBB2B289A504F001B368E /* GOPError.h in Headers */,
+				A0FFBB19289A504F001B368E /* OneLogin.h in Headers */,
+				A0FFBB2F289A504F001B368E /* OLPrivacyTermItem.h in Headers */,
+				A0FFBB25289A504F001B368E /* OLAgreementView.h in Headers */,
+				A0FFBB17289A504F001B368E /* OLNetworkInfo.h in Headers */,
+				A0FFBB15289A504F001B368E /* OLNavigationView.h in Headers */,
+				A0FFBB27289A504F001B368E /* OLKeyWindowUtil.h in Headers */,
+				A0FFBB1B289A504F001B368E /* OneLoginPro.h in Headers */,
+				A0FFBB21289A504F001B368E /* GTOnePass.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FFBAA9289A2379001B368E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0FFBB3A289A800D001B368E /* UASDKErrorCode.h in Headers */,
+				A0FFBB3B289A800D001B368E /* UASDKLogin.h in Headers */,
+				A0FFBB3E289A800D001B368E /* TYRZUISDK.h in Headers */,
+				A0FFBB3C289A800D001B368E /* UAEnums.h in Headers */,
+				A0FFBB3D289A800D001B368E /* UACustomModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FFBB42289A8046001B368E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0FFBB43289A8046001B368E /* UASDKErrorCode.h in Headers */,
+				A0FFBB44289A8046001B368E /* UASDKLogin.h in Headers */,
+				A0FFBB45289A8046001B368E /* TYRZUISDK.h in Headers */,
+				A0FFBB46289A8046001B368E /* UAEnums.h in Headers */,
+				A0FFBB47289A8046001B368E /* UACustomModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FFBB51289A86FE001B368E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0798CED289A87A600AB11EA /* EAccountPreLoginConfigModel.h in Headers */,
+				A0798CEE289A87A600AB11EA /* EAccountJSEventHandler.h in Headers */,
+				A0798CEC289A87A600AB11EA /* EAccountCTEConfig.h in Headers */,
+				A0798CEF289A87A600AB11EA /* EAccountSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A0798CF1289A87B500AB11EA /* CTCC-sim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0798CFB289A87B500AB11EA /* Build configuration list for PBXNativeTarget "CTCC-sim" */;
+			buildPhases = (
+				A0798CF2289A87B500AB11EA /* Headers */,
+				A0798CF7289A87B500AB11EA /* Sources */,
+				A0798CF8289A87B500AB11EA /* Frameworks */,
+				A0798CFA289A87B500AB11EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CTCC-sim";
+			productName = CTCC;
+			productReference = A0798CFE289A87B500AB11EA /* CTCC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0798D04289A892F00AB11EA /* CUCC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0798D09289A892F00AB11EA /* Build configuration list for PBXNativeTarget "CUCC" */;
+			buildPhases = (
+				A0798D00289A892F00AB11EA /* Headers */,
+				A0798D01289A892F00AB11EA /* Sources */,
+				A0798D02289A892F00AB11EA /* Frameworks */,
+				A0798D03289A892F00AB11EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CUCC;
+			productName = CUCC;
+			productReference = A0798D05289A892F00AB11EA /* CUCC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0798D16289A8A9C00AB11EA /* CUCC-sim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0798D1E289A8A9C00AB11EA /* Build configuration list for PBXNativeTarget "CUCC-sim" */;
+			buildPhases = (
+				A0798D17289A8A9C00AB11EA /* Headers */,
+				A0798D1A289A8A9C00AB11EA /* Sources */,
+				A0798D1B289A8A9C00AB11EA /* Frameworks */,
+				A0798D1D289A8A9C00AB11EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CUCC-sim";
+			productName = CUCC;
+			productReference = A0798D21289A8A9C00AB11EA /* CUCC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0FFBA39289A1416001B368E /* OneLoginRebuild */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0FFBA3E289A1416001B368E /* Build configuration list for PBXNativeTarget "OneLoginRebuild" */;
+			buildPhases = (
+				A0FFBA35289A1416001B368E /* Headers */,
+				A0FFBA36289A1416001B368E /* Sources */,
+				A0FFBA37289A1416001B368E /* Frameworks */,
+				A0FFBA38289A1416001B368E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneLoginRebuild;
+			productName = OneLoginSDK;
+			productReference = A0FFBA3A289A1416001B368E /* OneLoginRebuild.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0FFBA8F289A2135001B368E /* OneLoginRebuild-sim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0FFBAA5289A2135001B368E /* Build configuration list for PBXNativeTarget "OneLoginRebuild-sim" */;
+			buildPhases = (
+				A0FFBA90289A2135001B368E /* Headers */,
+				A0FFBAA1289A2135001B368E /* Sources */,
+				A0FFBAA2289A2135001B368E /* Frameworks */,
+				A0FFBAA4289A2135001B368E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OneLoginRebuild-sim";
+			productName = OneLoginSDK;
+			productReference = A0FFBAA8289A2135001B368E /* OneLoginRebuild.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0FFBAAD289A2379001B368E /* CMCC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0FFBAB2289A2379001B368E /* Build configuration list for PBXNativeTarget "CMCC" */;
+			buildPhases = (
+				A0FFBAA9289A2379001B368E /* Headers */,
+				A0FFBAAA289A2379001B368E /* Sources */,
+				A0FFBAAB289A2379001B368E /* Frameworks */,
+				A0FFBAAC289A2379001B368E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CMCC;
+			productName = CMCC;
+			productReference = A0FFBAAE289A2379001B368E /* CMCC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0FFBB41289A8046001B368E /* CMCC-sim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0FFBB4C289A8046001B368E /* Build configuration list for PBXNativeTarget "CMCC-sim" */;
+			buildPhases = (
+				A0FFBB42289A8046001B368E /* Headers */,
+				A0FFBB48289A8046001B368E /* Sources */,
+				A0FFBB49289A8046001B368E /* Frameworks */,
+				A0FFBB4B289A8046001B368E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CMCC-sim";
+			productName = CMCC;
+			productReference = A0FFBB4F289A8046001B368E /* CMCC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0FFBB55289A86FE001B368E /* CTCC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0FFBB5C289A86FE001B368E /* Build configuration list for PBXNativeTarget "CTCC" */;
+			buildPhases = (
+				A0FFBB51289A86FE001B368E /* Headers */,
+				A0FFBB52289A86FE001B368E /* Sources */,
+				A0FFBB53289A86FE001B368E /* Frameworks */,
+				A0FFBB54289A86FE001B368E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTCC;
+			productName = CTCC;
+			productReference = A0FFBB56289A86FE001B368E /* CTCC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0FFBA22289A13D7001B368E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					A0798D04289A892F00AB11EA = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					A0FFBA39289A1416001B368E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					A0FFBAAD289A2379001B368E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					A0FFBB55289A86FE001B368E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A0FFBA25289A13D7001B368E /* Build configuration list for PBXProject "OneLoginRebuild" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0FFBA21289A13D7001B368E;
+			productRefGroup = A0FFBA2C289A13D7001B368E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0FFBA39289A1416001B368E /* OneLoginRebuild */,
+				A0FFBA8F289A2135001B368E /* OneLoginRebuild-sim */,
+				A0FFBAAD289A2379001B368E /* CMCC */,
+				A0FFBB41289A8046001B368E /* CMCC-sim */,
+				A0FFBB55289A86FE001B368E /* CTCC */,
+				A0798CF1289A87B500AB11EA /* CTCC-sim */,
+				A0798D04289A892F00AB11EA /* CUCC */,
+				A0798D16289A8A9C00AB11EA /* CUCC-sim */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0798CFA289A87B500AB11EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0798D03289A892F00AB11EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0798D1D289A8A9C00AB11EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FFBA38289A1416001B368E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0FFBAB9289A23F8001B368E /* OneLoginResource.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FFBAA4289A2135001B368E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FFBAAC289A2379001B368E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FFBB4B289A8046001B368E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FFBB54289A86FE001B368E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0798CF7289A87B500AB11EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0798D01289A892F00AB11EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0798D1A289A8A9C00AB11EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FFBA36289A1416001B368E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FFBAA1289A2135001B368E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FFBAAA289A2379001B368E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FFBB48289A8046001B368E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FFBB52289A86FE001B368E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A0798CFC289A87B500AB11EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20220803;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/CTCC",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anotheren.CTCC;
+				PRODUCT_NAME = CTCC;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0798CFD289A87B500AB11EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20220803;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/CTCC",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anotheren.CTCC;
+				PRODUCT_NAME = CTCC;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0798D0A289A892F00AB11EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20220803;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/CUCC",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anotheren.CUCC;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0798D0B289A892F00AB11EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20220803;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/CUCC",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anotheren.CUCC;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0798D1F289A8A9C00AB11EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20220803;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/CUCC",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anotheren.CUCC;
+				PRODUCT_NAME = CUCC;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0798D20289A8A9C00AB11EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20220803;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/CUCC",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anotheren.CUCC;
+				PRODUCT_NAME = CUCC;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0FFBA30289A13D7001B368E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A0FFBA31289A13D7001B368E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A0FFBA3F289A1416001B368E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20220803;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/CTCC",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anotheren.OneLoginRebuild;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0FFBA40289A1416001B368E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20220803;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/CTCC",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anotheren.OneLoginRebuild;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0FFBAA6289A2135001B368E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20220803;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anotheren.OneLoginRebuild;
+				PRODUCT_NAME = OneLoginRebuild;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0FFBAA7289A2135001B368E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20220803;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anotheren.OneLoginRebuild;
+				PRODUCT_NAME = OneLoginRebuild;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0FFBAB3289A2379001B368E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20220803;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/CMCC",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anotheren.CMCC;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0FFBAB4289A2379001B368E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20220803;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/CMCC",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anotheren.CMCC;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0FFBB4D289A8046001B368E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20220803;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/CMCC",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anotheren.CMCC;
+				PRODUCT_NAME = CMCC;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0FFBB4E289A8046001B368E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20220803;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/CMCC",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anotheren.CMCC;
+				PRODUCT_NAME = CMCC;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0FFBB5A289A86FE001B368E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20220803;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/CTCC",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anotheren.CTCC;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0FFBB5B289A86FE001B368E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20220803;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/CTCC",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anotheren.CTCC;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0798CFB289A87B500AB11EA /* Build configuration list for PBXNativeTarget "CTCC-sim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0798CFC289A87B500AB11EA /* Debug */,
+				A0798CFD289A87B500AB11EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0798D09289A892F00AB11EA /* Build configuration list for PBXNativeTarget "CUCC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0798D0A289A892F00AB11EA /* Debug */,
+				A0798D0B289A892F00AB11EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0798D1E289A8A9C00AB11EA /* Build configuration list for PBXNativeTarget "CUCC-sim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0798D1F289A8A9C00AB11EA /* Debug */,
+				A0798D20289A8A9C00AB11EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0FFBA25289A13D7001B368E /* Build configuration list for PBXProject "OneLoginRebuild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0FFBA30289A13D7001B368E /* Debug */,
+				A0FFBA31289A13D7001B368E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0FFBA3E289A1416001B368E /* Build configuration list for PBXNativeTarget "OneLoginRebuild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0FFBA3F289A1416001B368E /* Debug */,
+				A0FFBA40289A1416001B368E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0FFBAA5289A2135001B368E /* Build configuration list for PBXNativeTarget "OneLoginRebuild-sim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0FFBAA6289A2135001B368E /* Debug */,
+				A0FFBAA7289A2135001B368E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0FFBAB2289A2379001B368E /* Build configuration list for PBXNativeTarget "CMCC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0FFBAB3289A2379001B368E /* Debug */,
+				A0FFBAB4289A2379001B368E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0FFBB4C289A8046001B368E /* Build configuration list for PBXNativeTarget "CMCC-sim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0FFBB4D289A8046001B368E /* Debug */,
+				A0FFBB4E289A8046001B368E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0FFBB5C289A86FE001B368E /* Build configuration list for PBXNativeTarget "CTCC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0FFBB5A289A86FE001B368E /* Debug */,
+				A0FFBB5B289A86FE001B368E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0FFBA22289A13D7001B368E /* Project object */;
+}

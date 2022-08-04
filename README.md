@@ -8,9 +8,9 @@
 * Require iOS 13+
 
 ## Change Log
-| OneLoginRebuild | GTOneLoginSDK |
-| ----- | ----- |
-| 1.1.2 | 2.7.5 |
+| OneLoginRebuild | GTOneLoginSDK | Xcode |
+| ----- | ----- | ----- |
+| 1.2.0 | 2.7.5 | 13.4.1 (13F100) |
 
 ## Installation
 
@@ -18,7 +18,7 @@
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/anotheren/OneLoginRebuild.git", from: "1.1.2")
+    .package(url: "https://github.com/anotheren/OneLoginRebuild.git", from: "1.2.0")
 ]
 ```
 
@@ -30,10 +30,7 @@ pod 'OneLoginRebuild'
 
 ## Manually Build
 
-* Download the latest `GTOneLoginSDK` from [geetest.com](https://docs.geetest.com/onelogin/changelog/ios).
-* Or download `Library/` from [Release Page](https://github.com/anotheren/OneLoginRebuild/releases).
-* Unzip and move files to `Library/`
-* run `create-xcframework.sh`
+* run `build-xcframework.sh`
 
 ## Reference
 
